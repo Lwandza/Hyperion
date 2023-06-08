@@ -1,0 +1,97 @@
+.App {
+  background-color: #fafafa;
+  height: 100% !important;
+  max-height: max-content;
+  
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.CardStyle{
+  background-color: white !important;
+  border-color: white !important;
+}
+.SameLine{
+  flex-direction: row !important;
+}
+h1{
+  color: #ee572a !important;
+
+}
+h3{
+  font-family: 'AvenirHeavy', Arial, sans-serif;
+}
+h8{
+color: #5f5f5f;
+
+justify-self: center !important;
+
+}
+.lineDivider{
+  background-color: #e8e8e8;
+  width: 95%;
+  height: 2px;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+}
+.OtherCourses{
+  background-color: white;
+}
+.ButtonColor{
+  color: #ee572a !important;
+  border-color: #ee572a !important;
+  width: 100%;
+  margin-top: 10px;
+}
+.ButtonColorRes{
+  color: #ee572a !important;
+  border-color: #ee572a !important;
+  width: 50%;
+  margin-top: 10px;
+}
+.ButtonColorSide{
+  color: #ee572a !important;
+  border-color: #ee572a !important;
+  width: 90%;
+  margin-top: 10px;
+}
+.IconSt{
+ size: 30px;
+}
+.ButtonColorStandard{
+  color: white !important;
+  border-color: #ee572a !important;
+  background-color: #ee572a !important;
+  width: 100%;
+  margin-top: 10px;
+}
+.ButtonColorStandardSmall{
+  color: white !important;
+  border-color: #ee572a !important;
+  background-color: #ee572a !important;
+  width: 50%;
+  margin-top: 10px;
+
+}
+.App-link {
+  color: #61dafb;
+}
+.CourseBlock{
+  background-color: white !important;
+  border-color: white !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

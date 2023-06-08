@@ -1,0 +1,48 @@
+.Header{
+    background-color: white;
+    max-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-top: 10px;
+    padding-left: 20px;
+
+    color: #282c34;
+}
+.RightSide{
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    background-color: #282c34;
+}
+.HeaderLogo{
+    height: 35px;
+    resize: inherit;
+}
+.HeaderLogoSmall{
+    height: 15px;
+    resize: inherit;
+}
+
+.ProfileImg{
+    width:35px; 
+    height:35px;
+    
+}
+.ProfileImgSmall{
+    width:15px; 
+    height:15px;
+    
+}
+.CourseName{
+    color: #ee572a;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.CourseNameSmall{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 3px;
+}
